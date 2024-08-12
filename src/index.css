@@ -1,0 +1,165 @@
+.card{
+  border:1px solid rgba(34, 31, 31, 0.507);
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(70, 4, 224, 0.397);
+  padding : 20px;
+  margin:10px;
+  text-align: center;
+  max-width: 250px;
+ display: inline-block;
+}
+
+
+.card .card-img{
+  max-width: 60%;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+
+}
+
+.card .card-title{
+  font-family: 'Times New Roman', Times, serif;
+  margin: 0;
+  color: rgb(15, 13, 158);
+}
+
+
+.card .card-text{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: rgba(43, 4, 4, 0.651);
+}
+
+
+
+.student{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2em;
+  padding: 10px;
+  border:1px solid rgb(10, 44, 88)
+}
+
+.student p{
+  margin:0
+}
+
+.success-message{
+  font-size: 2.5em;
+  background-color: green;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.login-prompt{
+  font-size: 2.5em;
+  background-color: red;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 0;
+
+}
+
+
+.list-category{
+  font-size:2.5em;
+  font-weight: bold;
+  color: rgb(50, 1, 1);
+  margin-bottom: 10px;
+  text-align: center;
+  border: 3px solid;
+  border-radius: 10px;
+background-color: rgb(125, 210, 210);
+}
+
+
+.list-items li{
+  font-size: 2 em;
+  list-style: none;
+  color: rgb(14, 6, 6);
+  text-align: center;
+  margin: 0;
+}
+
+.list-items li:hover{
+  color: brown;
+  cursor: pointer;
+
+}
+
+.count-container{
+  text-align: center;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.display{
+  font-size: 10em;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.button{
+  width: 150px;
+  height: 50px;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin: 0px 5px;
+  background-color: rgb(223, 8, 216);
+  color: beige;
+  border: none;
+  border-radius: 5px;
+}
+
+
+.todo-container{
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgb(137, 5, 133);
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+}
+
+.todo-heading{
+  color: rgb(6, 240, 53);
+  margin-bottom: 20px;
+
+}
+
+.todo-input{
+  padding: 10px;
+  width: 90%;
+  border: 1px solid rgb(195, 8, 220);
+  border-radius: 4px;
+  margin-bottom: 10px;
+
+}
+
+.todo-button{
+  padding: 10px 15px;
+  border: none;
+  background-color: rgb(8, 226, 70);
+  color: beige;
+  border-radius: 4px;
+  cursor: pointer;
+
+}
+
+.todo-button:hover{
+  background-color: rgb(81, 6, 152);
+}
+
+.todo-ul{
+  list-style-type: none;
+  padding: 0;
+}
+
+.todo-list{
+  padding: 10px;
+  background-color: rgb(163, 99, 223);
+  border: 1px solid rgb(10, 201, 70);
+  border-radius: 4px;
+  margin-bottom: 5px;
+}
