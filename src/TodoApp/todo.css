@@ -1,0 +1,33 @@
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin:10px 0;
+    display: flex;
+    align-items: center;
+}
+
+input[type="text"]{
+    padding:5px;
+    margin-right: 10px;
+}
+
+button{
+    margin-left: 10px;
+    padding: 5px 10px;
+    background-color: rgb(6, 112, 112);
+    color:white;
+    border:none;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: brown;
+}
+
+.completed{
+    text-decoration: line-through;
+}
