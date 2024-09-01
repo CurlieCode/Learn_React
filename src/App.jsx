@@ -1,12 +1,6 @@
-import MyComponent from "./MyComponent"
-
+import Cart from "./Cart/Cart";
 function App() {
-
-
-  return (
-<MyComponent/>
-  )
-  
+  return <Cart />;
 }
 
-export default App
+export default App;
