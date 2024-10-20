@@ -35,3 +35,18 @@ It allows you to control what gets rendered in app based on certain conditions
 Front end: Users will input ingredients, and the app will display recipes that match those ingredients. React will handle user inputs, API requests, and the display of recipe results.
 
 Back end: A Node.js server will store recipes in memory (a JavaScript array) and respond to requests based on the ingredients provided by the user.
+
+
+
+
+
+## Key Differences and Why You’d Use useRef:
+# Avoiding Re-renders:
+
+useState causes the component to re-render every time the state value is updated.
+useRef does not trigger a re-render when its value changes.
+
+# Why use useRef here?
+If you're managing a value that doesn't need to trigger a UI update (like form input values before submission), useRef is more efficient because it doesn’t cause unnecessary re-renders, whereas useState would.
+if you only need to store input field values temporarily (as in a form) and don't need to render them to the screen immediately, useRef is more efficient. You can grab the input values when the form is submitted, without rerendering every keystroke.
+
